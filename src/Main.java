@@ -4,8 +4,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
+        //creamos la array en el cual almacenamos las figuras
         Figura figuras[] = new Figura[3];
         int contador = 0;
+        //creamos un while en el cual segun el usuario seleccione la opcion
         while(contador < figuras.length) {
             System.out.println("=================MENU=================");
             System.out.println("Elige una opcion");
@@ -15,6 +17,7 @@ public class Main {
             System.out.println("4.Salir");
             int opcion;
 
+            //Creamos try, un switch y un cacth para que el usuario pueda seleccionar una opcion e introducir los datos
             try{
                 System.out.print("Ingrese una opcion: ");
                 opcion = num.nextInt();
