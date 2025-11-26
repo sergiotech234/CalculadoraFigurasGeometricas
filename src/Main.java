@@ -41,7 +41,7 @@ public class Main {
                         double l1 =num.nextDouble();
                         double l2 = num.nextDouble();
                         double l3 = num.nextDouble();
-                        Triangulo triangulo= new Triangulo(base,altura,l1,l2);
+                        Triangulo triangulo= new Triangulo(base,altura,l1,l2,l3);
                         figuras[contador++] = triangulo;
 
                         System.out.println("El area del triangulo es: " + triangulo.area());
