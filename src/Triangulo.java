@@ -3,7 +3,7 @@ public class Triangulo extends Figura{
     private double base;
     private double l1, l2, l3;
      //creamos el constructor con las variables que hemos creado anteriormente
-    public Triangulo(double altura, double l1, double l2, double l3) {
+    public Triangulo(double base,double altura, double l1, double l2, double l3) {
         this.altura = altura;
         this.base = base;
         this.l1 = l1;
